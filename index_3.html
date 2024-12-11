@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024년 회고</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 35px;
+            background-color: #1e1e1e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .menu a:visited {
+            color: #ffffff;
+        }
+
+        .menu a:hover {
+            color: #ff4081;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .logo a:visited {
+            color: #ffffff;
+        }
+
+        .logo a:hover {
+            color: #ff4081;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px 20px;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .song-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .song-card {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            width: 95%;
+            max-width: 1400px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+
+        .song-card:hover {
+            transform: scale(1.02);
+        }
+
+        .song-image {
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .song-title {
+            font-size: 24px;
+            margin: 0;
+            flex: 1;
+            text-align: left;
+        }
+
+        .song-description {
+            font-size: 16px;
+            color: #cccccc;
+            margin: 0 10px;
+            flex: 2;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Jeong_eun</a></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index_1.html">2024 에피소드</a></li>
+                <li><a href="index_2.html">해왔던 과제들</a></li>
+                <li><a href="index_3.html">들었던 노래</a></li>
+                <li><a href="index_4.html">읽었던 책</a></li>
+                <li><a href="index_5.html">나</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>내가 들었던 노래들</h1>
+        <p>" 장르가 다양하지만 매우 상반된 편 "</p>
+
+        <section class="song-container">
+            <div class="song-card">
+                <img class="song-image" src="노래 1.PNG">
+                <h2 class="song-title">死ぬな!</h2>
+                <p class="song-description">죽지 말라는 가사를 가지고 있다. <br>
+                    가사도 긍정적이고 비트도 신나서 많이 들었다.</p>
+                <audio controls>
+                    <source src="노래 1.mp3">
+                </audio>
+            </div>
+
+            <div class="song-card">
+                <img class="song-image" src="노래 2.PNG">
+                <h2 class="song-title">좋아해도 되는지 모르겠어</h2>
+                <p class="song-description">사실 나는 한국 노래를 잘 안 듣는다. <br>
+                가수나 연예인 물어보면 너 한국 사람 맞냐라는 소리를 들을 정도..? <br>
+                그럼에도 불구하고 오랜만에 꽂힌 한국 노래가 이 노래다.</p>
+                <audio controls>
+                    <source src="노래 2.mp3">
+                </audio>
+            </div>
+
+            <div class="song-card">
+                <img class="song-image" src="노래 3.PNG">
+                <h2 class="song-title">Treplev'Waltz</h2>
+                <p class="song-description">집중해서 작업할때는 가사 있는 노래를 잘 안 듣는데, <br>
+                그럴 때 듣는게 이런 노래다. 피아노가 너무 좋다.</p>
+                <audio controls>
+                    <source src="노래 3.mp3">
+                </audio>
+            </div>
+
+            <div class="song-card">
+                <img class="song-image" src="노래 4.PNG">
+                <h2 class="song-title">Butcher Vanity</h2>
+                <p class="song-description">나는 스포티파이로 노래를 듣는데, <br>
+                    최근에 연말정산으로 이 노래가 제일 많이 들은 곡인 걸 알았다. <br>
+                    근데 가사는 절대 보지 말길 바란다.</p>
+                <audio controls>
+                    <source src="노래 4.mp3">
+                </audio>
+            </div>
+
+            <div class="song-card">
+                <img class="song-image" src="노래 5.PNG">
+                <h2 class="song-title">Nobody Face Love</h2>
+                <p class="song-description">리듬게임 하다가 알게 된 곡인데<br>
+                너무 좋아서 앨범도 사서 작곡가한테 사인도 받았다.</p>
+                <audio controls>
+                    <source src="노래 5.mp3">
+                </audio>
+            </div>
+
+            <div class="song-card">
+                <img class="song-image" src="노래 6.PNG">
+                <h2 class="song-title">My Band</h2>
+                <p class="song-description">난 외힙도 좀 빡센게 좋다. 이런거 화날때 들으면 좋은듯?<br>
+                그래서 그런지 19 안달린 걸 찾을 수가 없어서 그냥 가장 많이 들었던 노래 넣었다...</p>
+                <audio controls>
+                    <source src="노래 6.mp3">
+                </audio>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Life is full of ups and downs.</p>
+    </footer>
+</body>
+</html>
