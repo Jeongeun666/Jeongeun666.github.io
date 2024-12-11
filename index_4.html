@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024년 회고</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 35px;
+            background-color: #1e1e1e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: #ff4081;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .logo a:visited {
+            color: #ffffff;
+        }
+
+        .logo a:hover {
+            color: #ff4081;
+        }
+
+
+        main {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #cccccc;
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .book-card {
+            display: flex;
+            background-color: transparent;
+            border-radius: 0;
+            padding: 40px;
+            width: 600px;
+            box-shadow: none;
+            text-align: left;
+        }
+
+        .book-image {
+            width: 180px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .text-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .book-title {
+            font-size: 28px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .book-description {
+            font-size: 18px;
+            color: #cccccc;
+            margin: 10px 0 0;
+        }
+
+        .point-box {
+            width: 10px;
+            height: 40px;
+            background-color: #ff4081;
+            margin: 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+            font-size: 18px;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Jeong_eun</a></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index_1.html">2024 에피소드</a></li>
+                <li><a href="index_2.html">해왔던 과제들</a></li>
+                <li><a href="index_3.html">들었던 노래</a></li>
+                <li><a href="index_4.html">읽었던 책</a></li>
+                <li><a href="index_5.html">나</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>내가 읽었던 책들</h1>
+        <p>" 의외로 독서하는 타입 "</p>
+
+        <section class="book-container">
+            <div class="book-card">
+                <img class="book-image" src="책1.jpg" alt="책 제목 1">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">밀실살인게임</h2><br>
+                    <p class="book-description">진짜 내 인생소설중 하나라고 할 수 있다. 책 못 읽는 사람도 이건 읽을 수 있을 듯 하다. 게임처럼 흥미진진한 전개다.. (실제로 여기 주인공들은 게임처럼 생각하긴 한다. 살인 트릭을.,,,;;ㅋㅋ)</p>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img class="book-image" src="책2.jpg" alt="책 제목 2">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">사후세계를 여행하는 모험가를 위한 안내서</h2><br>
+                    <p class="book-description">원래 거의 추리소설? 밀실? 이런 주제만 보다가 표지에 강렬하게 이끌려서 구매해서 읽어보았다. 내가 N이라서 그런건지 모르겠지만 죽은 뒤에 세상을 계속 생각해보게 만드는 책이었다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="book-container">
+            <div class="book-card">
+                <img class="book-image" src="책3.jpg" alt="책 제목 3">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">이상한 집</h2><br>
+                    <p class="book-description">초반에 정말 재밌게 읽고 있었는데 점점 판타지스럽게 변해가는 전개에 조금 아쉬웠던 작품이다. 그래도 흥미로운 이야기였다. 이거 실화바탕이랬던가..</p>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img class="book-image" src="책4.jpg" alt="책 제목 4">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">멋진 신세계</h2><br>
+                    <p class="book-description">이 책을 읽으면 1984가 생각난다.. 비슷한데 다른 느낌이랄까. 이 책 읽고 1984를 안 읽어봤다면 읽어보는 것도 좋을 것 같다. 새로운 시선으로 볼 수 있을 듯..</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="book-container">
+            <div class="book-card">
+                <img class="book-image" src="책5.jpg" alt="책 제목 3">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">달러구트 꿈 백화점</h2><br>
+                    <p class="book-description">보는 장르가 읽고나면 빠져서 어질어질해지는 것들만 주로 읽다 보니 힐링이 필요해서 읽게 되었다. '내 꿈도 이런 과정을 거쳐서 꾸게 되는 걸까?'' 하고 살짝 웃음이 나는 느낌의 책이었다.</p>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <img class="book-image" src="책6.jpg" alt="책 제목 4">
+                <div class="point-box"></div>
+                <div class="text-box">
+                    <h2 class="book-title">인간실격</h2><br>
+                    <p class="book-description">음,,, 유명한 책이다. 나는 이 책을 소문으로만 듣고 읽어본적이 없었는데, 갑자기 당겨서 최근에 읽게 되었다. 한 사람의 인생이 이렇게까지 망가질수가 있구나..싶고 '부끄러운 삶을 살았습니다.' 라는 시작말조차 위선적인 것으로 보이게 하는. 그런 내용이다.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Life is full of ups and downs.</p>
+    </footer>
+</body>
+</html>
