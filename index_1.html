@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOKING BACK AT 2024</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 35px;
+            background-color: #1e1e1e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu li {
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .menu a:visited {
+            color: #ffffff;
+        }
+
+        .menu a:hover {
+            color: #ff4081;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .logo a:visited {
+            color: #ffffff;
+        }
+
+        .logo a:hover {
+            color: #ff4081;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px 20px;
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-row, .text-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-box {
+            width: 300px;
+            background-color: #1e1e1e;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            border-radius: 0;
+            margin: 10px;
+        }
+
+        .product-image {
+            margin-bottom: 10px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .text-box {
+            width: 300px;
+            background-color: #1e1e1e;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            border-radius: 0;
+            margin: 10px;
+        }
+
+        .text-box h3 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .text-box p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-media a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ff4081;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .product-box, .text-box {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Jeong_eun</a></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index_1.html">2024 에피소드</a></li>
+                <li><a href="index_2.html">해왔던 과제들</a></li>
+                <li><a href="index_3.html">들었던 노래</a></li>
+                <li><a href="index_4.html">읽었던 책</a></li>
+                <li><a href="index_5.html">나</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>내 2024 에피소드</h1>
+        <p>" 올해 무슨 일이 있었냐면요 "</p>
+        <section class="product-container">
+            <div class="image-row">
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드3.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드2.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드4.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="text-row">
+                <div class="text-box">
+                    <h3>새로 산 노트북이 무서워요</h3>
+                    <p>산지 3일됬는데 윈도우 깔다가 붉은색의 블루스크린을 (아 그러면 블루스크린이 아니라 레드스크린인가..?) 봤다..</p>
+                    <p>2024.03.07</p>
+                </div>
+                <div class="text-box">
+                    <h3>학교 축제에서 핫도그를 먹었다</h3>
+                    <p>근데 사먹고 나서 후회했음. 생각보다 너무 맛없어서, 진짜 짬 케찹맛밖에 안남. ㅋㅋ;; 근데 사진이 잘찍혀서 너무 기억에 남았음..</p>
+                    <p>2024.05.16</p>
+                </div>
+                <div class="text-box">
+                    <h3>같은 과 선배랑 맘터먹기</h3>
+                    <p>에브리타임에서 친해졌는데 알고보니 같은과였고... 비슷한 취미가 있고... 아는사람도 겹치는 신기한 사람을 만남. 콜라보 메뉴 같이 먹었음.</p>
+                    <p>2024.10.04</p>
+                </div>
+                <div class="text-box">
+                    <h3>빼빼로데이 기념 수제 제작</h3>
+                    <p>빼빼로 데이때 동생이 친구들 수제빼빼로 선물하겠다고 재료부터 먼저 샀는데 다이소에서 4만원이 나옴; 겁내많아서 나도 같이함.</p>
+                    <p>2024.11.09</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-container">
+            <div class="image-row">
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드7.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드8.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드6.jpg">
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-image">
+                        <img src="에피소드5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="text-row">
+                <div class="text-box">
+                    <h3>화계장터 처음이자 마지막 구매</h3>
+                    <p>이날 어버이날인데 꽃을 구하고 싶어서 처음 구매해봄. 1학기때 시간표가 거의 테트리스여서 시간 정하기 힘들었음..</p>
+                    <p>2024.05.08</p>
+                </div>
+                <div class="text-box">
+                    <h3>기말발표때 긴장해서 낙서</h3>
+                    <p>맨날 잘 할거면서 하기 전에 매번 쫄려 하는 타입... 후문이지만 이 과목은 에이플을 받았읍니다.</p>
+                    <p>2024.05.07</p>
+                </div>
+                <div class="text-box">
+                    <h3>눈감고 만들기</h3>
+                    <p>교양 시간에 만들었음. 눈감으니까 시간이 너무 안가서 시간과 공간에 방에 갇힌 줄...</p>
+                    <p>2024.11.11</p>
+                </div>
+                <div class="text-box">
+                    <h3>학교왔는데 오후수업 줌으로 바뀜</h3>
+                    <p>왔는데 발에 감각이 안 느껴졌음. 눈 한 40cm왔다던데,,,이래도 학교를...가네...</p>
+                    <p>2024.11.28</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Life is full of ups and downs.</p>
+    </footer>
+</body>
+</html>
